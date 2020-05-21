@@ -1,0 +1,21 @@
+body {
+    background-color: #7d75db;
+}
+
+.head_main {
+    background-color: #f7f4f4;
+}
+
+.head_bar {
+    background-color: #f7f4f4;
+    height: 10vh;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    margin: 5px 5px;
+}
+
+.head_body {
+    background-color: #f7f4f4;
+    height: 86vh;
+    font-size: 20px;
+}

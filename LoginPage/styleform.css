@@ -1,0 +1,18 @@
+body{
+  margin:0px;
+  padding:0px;
+  font-family:sans-serif;
+}
+
+form{
+	margin-top:5%;
+	margin-bottom:10%;
+	margin-left:23%;
+	margin-right:23%;
+	font-size:large;
+}
+
+legend{
+	text-align:center;
+	font-size:large;
+}

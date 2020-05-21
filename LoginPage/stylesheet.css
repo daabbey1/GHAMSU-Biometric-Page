@@ -1,0 +1,175 @@
+body{
+  margin:0px;
+  padding:0px;
+  background:url(images/wall.jpg);  /* animated.png or backgroundpik.jpg*/
+  background-size:cover;
+  background-position:cover;
+  font-family:sans-serif;
+}
+
+.LoginBox{
+	width:320px;
+    height:420;
+    background:rgba(0,0,0,0.5);
+    color:#fff;
+    top:50%;
+    left:50%;
+    position:absolute;
+    transform:translate(-50%,-50%);
+    box-sizing:LoginBox;
+    padding:70px 30px;   /* kind of maintain the size ,without the 30px the size becomes wider*/	
+}
+
+.profile{
+	width:100px;
+	height:100px;
+	border-radius:50%;
+	position:absolute;
+	top:-50px;             /* divides profile on the LoginBox borfer  */
+	left:calc(50% - 50px); /* center's the profile*/
+}
+
+h1{
+	margin:0px;
+	padding:0 0 20px;  /* ....... */
+	text-align:center;
+	font-size:22px;
+}
+
+.LoginBox p{
+	margin:0px;
+	padding:0;
+	font-weight:bold;
+}
+
+.LoginBox input{
+	width:100%;
+	margin-bottom: 20px;
+}
+
+.LoginBox input[type="text"], input[type="password"]{
+	border: none;
+	border-bottom: 1px solid #fff ; /* ....... */ 
+	background:transparent;
+	outline: none;             /* ....... */
+	height:40px;
+	color:#fff;
+	font-size:16px; 
+} 
+
+.LoginBox input[type="submit"]{
+	border:none;
+	outline: none;
+	height: 40px;
+	background:#1c8adb;   /* #1c8adb       ....... */
+	color:#fff;
+	font-size:18px;
+	border-radius:20px;
+}
+
+.LoginBox input[type="submit"]:hover{
+	cursor:pointer;        /* ....... */
+	background: #39dc79;   /* #39dc79 ....... */
+	color:#000;            /* #000 ....... */
+}
+
+.LoginBox a{
+	text-decoration:none;
+	font-size:14px;
+	color:#fff;
+}
+
+.LoginBox a:hover{
+	color:#39dc79;
+}
+
+@media(max-width:400px;){
+	.LoginBox{
+	width:300px;
+    height:220;  
+	}
+}
+
+
+@media(max-width:300px;){
+	.LoginBox input[type="text"], input[type="password"]{
+	border: none;
+	border-bottom: 1px solid #fff ; /* ....... */ 
+	background:transparent;
+	outline: none;             /* ....... */
+	height:40px;
+	color:#fff;
+	font-size:16px; 
+    background:red;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
